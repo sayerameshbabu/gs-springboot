@@ -29,16 +29,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <!-- end::tests[] -->
-
-    </dependencies>
- <exclusions>
+            <exclusions>
             <exclusion>
                 <artifactId>tools</artifactId>
                 <groupId>com.sun</groupId>
             </exclusion>
-  </exclusions>
+            </exclusions>
+        </dependency>
+        <!-- end::tests[] -->
+
+    </dependencies>
     
     <properties>
         <java.version>1.8</java.version>
